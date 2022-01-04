@@ -1,0 +1,21 @@
+{
+	"$id": "https://api.example.com/api/schema/sub-schema.json",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"title": {
+			"type": "string"
+		},
+		"logo": {
+			"type": "string"
+		},
+		"countable": {
+			"type": "boolean"
+		}
+	},
+	"required": [
+		"title",
+		"logo",
+		"countable"
+	]
+}

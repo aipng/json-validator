@@ -1,0 +1,24 @@
+{
+	"$id": "https://api.example.com/api/schema/main-schema.json",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"id": {
+			"type": "integer"
+		},
+		"name": {
+			"type": "string"
+		},
+		"items": {
+			"type": "array",
+			"items": {
+				"$ref": "https://api.example.com/api/schema/sub-schema.json"
+			}
+		}
+	},
+	"required": [
+		"id",
+		"name",
+		"items"
+	]
+}
