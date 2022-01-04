@@ -17,8 +17,8 @@ final class JsonValidatorTest extends TestCase
 		$this->expectException(\InvalidArgumentException::class);
 
 		new JsonValidator(50, 'https://www.example.org', __DIR__ . '/no-directory');
-
 	}
+
 
 	public function testShouldValidateEmptySchema(): void
 	{
