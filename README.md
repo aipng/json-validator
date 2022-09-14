@@ -5,7 +5,7 @@ JSON validator (based on [opis/json-schema](https://github.com/opis/json-schema)
 ## Installation
 
 ```bash
-composer install aipng/json-validator
+composer require aipng/json-validator
 ```
 
 ## Usage
