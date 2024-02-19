@@ -46,7 +46,7 @@ final class JsonValidator
 		try {
 			$result = $this->validator->validate(
 				Json::decode($json),
-				file_get_contents($schemaPath)
+				file_get_contents($schemaPath),
 			);
 		} catch (JsonException $e) {
 			throw new InvalidJsonDataException('Invalid JSON', 500, $e);

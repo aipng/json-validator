@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <phpunit
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd"
 	bootstrap="vendor/autoload.php"
 	colors="true"
-	convertNoticesToExceptions="true"
-	convertWarningsToExceptions="true">
-
-	<testsuites>
-		<testsuite name="value-objects">
-			<directory>tests</directory>
-		</testsuite>
-	</testsuites>
-
+	cacheDirectory=".phpunit.cache"
+>
 </phpunit>
